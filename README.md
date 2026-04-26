@@ -71,8 +71,8 @@ Since DocProof is a single-page application, getting it running is simple:
 To use your own backend, update the following constants in `index.html`:
 
 ```javascript
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseUrl = 'https://rjnolzmhitlcawtsgvwk.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJqbm9sem1oaXRsY2F3dHNndndrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMDcxNDEsImV4cCI6MjA5Mjc4MzE0MX0.TMatVjTaxuPRCxUDdfmXJ2xSaxNY32rzNZa91ghKGfI';
 ```
 
 ### Required Database Schema
