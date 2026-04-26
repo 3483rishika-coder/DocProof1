@@ -1,4 +1,4 @@
-# This is a comprehensive, professional `README.md` file tailored specifically for your **DocProof** project. You should create a new file named `README.md` in your GitHub repository and paste this content into it.
+
 
 ***
 
