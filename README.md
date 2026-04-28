@@ -43,7 +43,26 @@
 * **Database & Auth:** [Supabase](https://supabase.com/)
 * **Icons:** [Lucide React](https://lucide.dev/)
 * **Cryptography:** Web Crypto API (Native Browser)
-* **Deployment:** [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/)
+* **Deployment:** [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/):
+
+## Core Languages
+* **HTML5**: Used for the foundational structure of the document, including the `head` metadata and the `root` container for the React application.
+* **CSS3**: Used for custom styling, including complex animations (like the laser sweep), glassmorphism effects (`liquid-glass`), and the custom cursor behavior.
+* **JavaScript (ES6+)**: The primary language for the application logic, handling file processing, cryptographic functions (SHA-256 hashing), and integration with the Supabase database.
+
+---
+
+## Language Extensions & Frameworks
+* **JSX (JavaScript XML)**: Used within the React components to write HTML-like code directly inside JavaScript.
+* **Tailwind CSS**: A utility-first CSS framework used via a CDN script for rapid UI development and layout management.
+* **Babel**: While a compiler rather than a language, it is used here to transpile the **JSX** and modern JavaScript so the browser can execute it.
+
+## Technical Details
+The file also interfaces with several **web APIs** using JavaScript, which are essential to its functionality:
+* **Web Crypto API**: For generating SHA-256 hashes and AES-256 encryption.
+* **WebAuthn API**: For the biometric DNA-link simulation.
+* **Geolocation API**: To capture coordinates for the GPS Anchor.
+* **Canvas API**: Used to render the "Forensic Ghost Image" byte frequency histogram.
 
 
 
